@@ -1,0 +1,32 @@
+aid: locationiq
+name: LocationIQ
+description: "Provides forward/reverse geocoding and batch geocoding"
+url: https://locationiq.org/docs/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: LocationIQ
+    description: "Provides forward/reverse geocoding and batch geocoding"
+    humanURL: https://locationiq.org/docs/
+    baseURL: https://locationiq.org/docs/
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: https://locationiq.org/docs/
+common:
+  - type: Website
+    url: https://locationiq.org/docs/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
