@@ -23,10 +23,14 @@ apis:
       - type: Documentation
         url: https://locationiq.org/docs/
 common:
+  - type: DomainSecurity
+    url: security/locationiq-domain-security.yml
   - type: Website
     url: https://locationiq.org/docs/
   - type: PublicAPIsListing
     url: https://github.com/public-apis/public-apis
+  - url: https://blog.locationiq.com/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
